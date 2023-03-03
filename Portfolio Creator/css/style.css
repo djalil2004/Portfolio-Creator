@@ -1072,6 +1072,13 @@ margin-right: 10px;
   .testimonials__slider-wrapper{
     flex-direction: column;
   }
+  .testimonials__subt{
+    font-weight: 700;
+    font-size: 16;
+  }
+  .testimonials__bo{
+    margin-top: 550px;
+  }
 }
 
 
@@ -1113,8 +1120,39 @@ margin-right: 10px;
 .projects__heading{
  
 }
+.main__servis{
+  padding: 0px ;
+  
+}
+.main__projects{
+  padding: 0px ;
+}
+.main__product{
+  padding: 0px ;
+}
+
+.main__work{
+  padding: 0px ;
+}
+.main__testimonials{
+padding: 0px ;
+}
+
+
+.main__blog{
+  background: #000000;
+  padding: 0px ;
+}
+.blog__ti-1{
+  font-weight: 700;
+  font-size: 18px;
+}
 }
 @media (max-width: 999px ){
+  .footer{
+    padding: 15px;
+    background: #000000;
+  }
  .footer__body{
   flex-direction: column;
  } 
@@ -1127,6 +1165,7 @@ flex-direction: column;
  .footer__link{
   margin-bottom: 10px;
  }
+
 }
 
 @media (max-width: 896px ){
