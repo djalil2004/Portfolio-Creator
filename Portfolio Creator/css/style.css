@@ -1305,9 +1305,9 @@ padding: 0px ;
  
   }
   .header__row{
-    margin-left: 15px;
+    margin-left: 200px;
     flex-direction: column;
-    align-items: center;
+    
   }
   .header__row-item{
     margin-bottom: 100px;
@@ -1319,6 +1319,9 @@ padding: 0px ;
 @media (max-width: 576px ){
 .footer__oksfpd{
   flex-direction: column;
+}
+.servis__body{
+  padding-left: 0;
 }
 }
 @media (max-width: 542px ){
@@ -1334,6 +1337,47 @@ padding: 0px ;
 }
 
 @media (max-width: 479px ){
+  .header__row{
+    margin-left: 100px;
+    flex-direction: column;
+    
+  }
+  .heading__subtitle{
+  font-weight: 700;
+  font-size: 28px;
+  }
+  .heading__title{
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .heading__title-2{
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .servis__title {
+    font-weight: 700;
+    font-size: 21px;
+}
+.blog__title-1 {
+  font-weight: 700;
+  font-size: 41px;
+}
+.product__title-2 {
+  font-weight: 400;
+  font-size: 13px;
+}
+.footer__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer__title {
+  font-weight: 700;
+  font-size: 29px;
+}
+  .projects__title-1 {
+    font-weight: 700;
+    font-size: 29px;
+  }
 .header__content-btn{
   align-items: center;
   margin-bottom: 40px;
